@@ -30,7 +30,7 @@ test_set = subset(dataset, split == FALSE)
 training_set[,2:3] = scale(training_set[,2:3])
 test_set[,2:3] = scale(training_set[,2:3])
 
-
+#main prep finish
 
 
  
